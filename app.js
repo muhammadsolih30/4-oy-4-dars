@@ -220,31 +220,72 @@ let ali =  `salom ozbekiston`
 
 // ------------------------------------------------------------------------------------------------------------------------------
  
-let davlat = `O'zbEkiston BuYuk davlaT`
-davlat = davlat.toLowerCase()
 
-let natija = "";
+// let davlat = `O'zbEkiston BuYuk davlaT`
+// davlat = davlat.toLowerCase()
 
-for (let i = 0; i < davlat.length; i++){
-   if (i === 0 || davlat[i - 1] === " "){
-      natija += davlat[i].toUpperCase()
-   }
-   else{
-      natija += davlat[i]
-   }
-}
-console.log(natija)
+// let natija = "";
 
-
-// function davlatlar (davlat) {
-//    console.log(davlat.toLowerCase())
-
-//    if(davlat == " "){
-//       console.log(davlat[0].toUppercase())
+// for (let i = 0; i < davlat.length; i++){
+//    if (i === 0 || davlat[i - 1] === " "){
+//       natija += davlat[i].toUpperCase()
 //    }
-//    return davlat
+//    else{
+//       natija += davlat[i]
+//    }
+// }
+// console.log(natija)
+
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+// let vatan = `jonajon uyrtim jonajon vatanim o'zbekistonim`
+
+// console.log(vatan.replace('jonajon', 'vatanim'));  //! replace ---> joyidagi narsani ozgartiradi
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+// let davlat = `ali`
+// let davlat1 = `vali`
+
+// console.log(davlat.concat(" ", davlat1  , " ", "eshmat")) //!   concat ---> ikkita sitirgni bir biriga qushadi
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+// console.log("       ali      ".trim())  //!  trim ---> bui joylarni yuq qilib beradi
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+// console.log(`ali niima gap`.padStart(15,'*')); //! --->  kam bulsa tuldiradi
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+// let ism = `alish`
+
+// for(let i = 0; i < ism.length; i++){
+//    console.log(`${ism.charCodeAt(i)} :  ${ism[i]}`) //! ---> istalgan suzni tagidagi kodlarini kurish
 // }
 
-// davlatlar(`o'zbEkiston buYuk davlaT`)
+// ------------------------------------------------------------------------------------------------------------------------------
 
-// console.log(davlat)
+// console.log(' hello '.repeat(5))  //! --> takrolanish
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+// let natija = `ali  va boshqa bolalar bilan yuribdi`
+
+// console.log(natija.split('') )
+
+
