@@ -165,5 +165,31 @@
 // -------------------------------------------------------------------------
 
 
+let ali =  `salom ozbekiston`
+
+// for (i in ali ){
+//    console.log(ali[i])
+// }
+
+// for (i of ali){
+//    console.log([i])
+// }
+
+
+// -------------------------------------------------------------------------
+
+let natija =`ali  va boshqa bolalar bilan yuribdi`
+
+console.log(natija.slice(0 , -10))  //! ---> bu kesib olish negativ qiymat qabul qiladi
+
+
+// -------------------------------------------------------------------------
+
+ let l = `bolalar bilan yuribdi`
+
+console.log(l.substring(0 , 10))  //! ---> bu ham kesib olish bu negatibv qiymat qabul qilmaydi
+
+
+
 
 
