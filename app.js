@@ -178,18 +178,73 @@ let ali =  `salom ozbekiston`
 
 // -------------------------------------------------------------------------
 
-let natija =`ali  va boshqa bolalar bilan yuribdi`
+// let natija =`ali  va boshqa bolalar bilan yuribdi`
 
-console.log(natija.slice(0 , -10))  //! ---> bu kesib olish negativ qiymat qabul qiladi
+// console.log(natija.slice(0 , -10))  //! ---> bu kesib olish negativ qiymat qabul qiladi
 
 
 // -------------------------------------------------------------------------
 
- let l = `bolalar bilan yuribdi`
+//  let l = `bolalar bilan yuribdi`
 
-console.log(l.substring(0 , 10))  //! ---> bu ham kesib olish bu negatibv qiymat qabul qilmaydi
-
-
+// console.log(l.substring(0 , 10))  //! ---> bu ham kesib olish bu negatibv qiymat qabul qilmaydi
 
 
+// -------------------------------------------------------------------------
 
+// let davlat = `ozbekiston buyuk davlat`
+// let suz = davlat
+
+// let oz = suz
+// let buy = suz
+// let dav = davlat
+
+// console.log(` ${oz.slice(0, 10)} \n ${buy.slice(11, 17)} \n ${dav.slice(17, 23)}`);
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+// let davlat = `O'zbEkiston BuYuk davlaT`
+
+// console.log(davlat.toLowerCase()) //!  ---> hammasini kichik qilib beradi
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+// let davlat = `O'zbEkiston BuYuk davlaT`
+
+// console.log(davlat.toUpperCase()) //!  ---> hammasini katta  qilib beradi
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+ 
+let davlat = `O'zbEkiston BuYuk davlaT`
+davlat = davlat.toLowerCase()
+
+let natija = "";
+
+for (let i = 0; i < davlat.length; i++){
+   if (i === 0 || davlat[i - 1] === " "){
+      natija += davlat[i].toUpperCase()
+   }
+   else{
+      natija += davlat[i]
+   }
+}
+console.log(natija)
+
+
+// function davlatlar (davlat) {
+//    console.log(davlat.toLowerCase())
+
+//    if(davlat == " "){
+//       console.log(davlat[0].toUppercase())
+//    }
+//    return davlat
+// }
+
+// davlatlar(`o'zbEkiston buYuk davlaT`)
+
+// console.log(davlat)
